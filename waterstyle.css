@@ -137,7 +137,7 @@ main img:hover {
 }
 
 #mainImage {
-    background-image: url(images/watergap.jpg);
+    background-image: url(watergap.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 696.8px;
