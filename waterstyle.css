@@ -1,0 +1,178 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: auto;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: var(--medium);
+    padding: 0.7em;
+    margin-bottom: 0.1em;
+    border-radius: 0.5em;
+    color: black;
+    line-height: 3em;
+    box-shadow: -0.3em 0.3em var(--buttonSide);
+    position: relative;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    top: 0.1em;
+    left: -0.1em;
+    box-shadow: -0.2em 0.2em var(--buttonSide);
+    background-color: var(--darkerMedium);
+}
+
+nav a:active {
+    top: 0.2em;
+    left: -0.2em;
+    box-shadow: -0.1em 0.1em var(--buttonSide);
+    background-color: var(--darkerMedium);
+}
+
+article p {
+    border: 0.1em solid var(--border);
+    border-radius: 0.5em;
+    padding: 1em;
+    text-align: left;
+    box-shadow: -0.2em 0.2em var(--darkerBorder);
+}
+
+body {
+    margin-top: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-bottom: 5em;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+main img {
+    border: 0.3em solid var(--light);
+    border-radius: 0.5em;
+    margin: 1em;
+    border-radius: 50%;
+    width: 8em;
+    height: auto;
+    transition-duration: 1s;
+}
+
+main img:hover {
+    border-color: var(--hoverBorder);
+    width: 10em;
+    height: auto;
+}
+
+.animalImages {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.animalImages img {
+    width: 10em;
+    height: auto;
+    box-shadow: 0 0 0.3em black;
+    transition-duration: 1s;
+}
+
+.animalImages img:hover {
+    width: 15em;
+    height: auto;
+}
+
+.bookImages {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.5em;
+}
+
+.bookImages p {
+    text-align: left;
+}
+
+.bookImages div {
+    border: 0.1em solid var(--border);
+    padding: 1em;
+}
+
+.bookImages img {
+    width: 15%;
+    height: auto;
+}
+
+.audioText {
+    justify-self: left;
+}
+
+.audioCaption {
+    margin-top: 5em;
+    text-align: left;
+    font-size: 0.1em;
+}
+
+.photoCaption {
+    font-size: 0.5em;
+    margin-top: 0.01em;
+}
+
+.lightText {
+    color: white;
+}
+
+#mainImage {
+    background-image: url(images/watergap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 696.8px;
+    height: 578.5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-self: center;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em black;
+}
+
+#mainImage h4 {
+    margin-bottom: 0.05em;
+    margin-top: 2em;
+}
+
+#background {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#background p {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+:root {
+    --medium: #7fa8f5;
+    --darkerMedium: #6898f3;
+    --buttonSide: #3d7cf1;
+    --light: #b1defc;
+    --border: #3d67ff;
+    --darkerBorder: #1d4df9;
+    --hoverBorder: #f5ef42;
+    --background: #f0ffed;
+    --navBackground: #f5f4e6;
+    --darkerNavBackground: #fcfacd;
+}

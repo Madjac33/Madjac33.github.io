@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@200&family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="waterstyle.css">
+    <style>
+        h1, h4 {
+            font-family: 'Itim', cursive;
+        }
+        p, a {
+            font-family: 'Asap', sans-serif;
+        }
+    </style>
+    <title>The Delaware Water Gap</title>
+</head>
+<body>
+    <header>
+        <h1>The Delaware Water Gap</h1>
+        <nav>
+            <a href="projectbackground.html">Project Background</a>
+        </nav>
+        <p>Click on the different locations to see the creatures that live there!</p>
+        <hr>
+    </header>
+    <div class="audioText">
+        <p>Listen to the sounds of the Delaware Water Gap</p>
+    </div>
+    <audio controls loop autoplay>
+        <source src="sounds/forestsounds.mp3" type="audio/mp3">
+    </audio>
+    <div>
+        <p class="audioCaption" >Audio by Garuda1982 on Pixabay</p>
+    </div>
+    <br>
+    <main id="mainImage">
+        <div>
+            <h4>The Forests</h4>
+            <a id="forestButton" href="forests.html">
+                <img src="images/delawaretrees.jpg" alt="Forests">
+            </a>
+            <p class="lightText photoCaption">Photo by Perkins on Pixabay</p>
+        </div>
+        <div>
+            <h4>The Wetlands</h4>
+            <a id="wetlandsButton" href="wetlands.html">
+                <img src="images/heronwetlands.jpg" alt="Wetlands">
+            </a>
+            <p class="lightText photoCaption">Photo by Meatle on Pixabay</p>
+        </div>
+        <div>
+            <h4 class="lightText">The River</h4>
+            <a id="riverButton" href="river.html">
+                <img src="images/delawarewater.jpg" alt="River">
+            </a>
+            <p class="lightText photoCaption">Photo by Perkins on Pixabay</p>
+        </div>
+        <div>
+            <h4 class="lightText">Leaf Litter</h4>
+            <a id="leafLitterButton" href="leaflitter.html">
+                <img src="images/deadleaves.jpg" alt="Leaf litter">
+            </a>
+            <p class="lightText photoCaption">Photo by GAIMARD on Pixabay</p>
+        </div>
+    </main>
+</body>
+</html>
