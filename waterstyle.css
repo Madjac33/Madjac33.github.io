@@ -12,7 +12,7 @@ h2 {
     margin-bottom: 0.1em;
 }
 
-nav {
+nav, article {
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 1em;
@@ -39,11 +39,31 @@ nav a:hover {
     background-color: var(--darkerMedium);
 }
 
-nav a:active {
+article a {
+    text-decoration: none;
+    background-color: var(--altNavButton);
+    padding: 0.7em;
+    margin-bottom: 0.1em;
+    border-radius: 0.5em;
+    color: black;
+    line-height: 3em;
+    box-shadow: -0.3em 0.3em var(--altNavBackground);
+    position: relative;
+    transition-duration: 0.3s;
+}
+
+article a:hover {
+    top: 0.1em;
+    left: -0.1em;
+    box-shadow: -0.2em 0.2em var(--altNavBackground);
+    background-color: var(--darkerAltBackground);
+}
+
+article a:active {
     top: 0.2em;
     left: -0.2em;
-    box-shadow: -0.1em 0.1em var(--buttonSide);
-    background-color: var(--darkerMedium);
+    box-shadow: -0.1em 0.1em var(--altNavBackground;
+    background-color: var(--darkerAltBackground);
 }
 
 article p {
@@ -175,4 +195,7 @@ main img:hover {
     --background: #f0ffed;
     --navBackground: #f5f4e6;
     --darkerNavBackground: #fcfacd;
+    --altNavBackground: ##e8671c;
+    --darkerAltBackground: #fa772a;
+    --altNavButton: ##fc8844;
 }
