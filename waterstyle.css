@@ -32,6 +32,19 @@ nav a {
     transition-duration: 0.3s;
 }
 
+.trentoniana a {
+    text-decoration: none;
+    background-color: var(--altNavButton);
+    padding: 0.7em;
+    margin-bottom: 0.1em;
+    border-radius: 0.5em;
+    color: black;
+    line-height: 3em;
+    box-shadow: -0.3em 0.3em var(--altNavBackground);
+    position: relative;
+    transition-duration: 0.3s;
+}
+
 nav a:hover {
     top: 0.1em;
     left: -0.1em;
