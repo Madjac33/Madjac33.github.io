@@ -52,11 +52,25 @@ nav a:hover {
     background-color: var(--darkerMedium);
 }
 
+#trentoniana a:hover {
+    top: 0.1em;
+    left: -0.1em;
+    box-shadow: -0.2em 0.2em var(--altNavBackground);
+    background-color: var(--darkerAltBackground);
+}
+
 nav a:active {
     top: 0.2em;
     left: -0.2em;
     box-shadow: -0.1em 0.1em var(--buttonSide);
     background-color: var(--darkerMedium);
+}
+
+#trentoniana a:active {
+    top: 0.2em;
+    left: -0.2em;
+    box-shadow: -0.1em 0.1em var(--altNavBackground);
+    background-color: var(--darkerAltBackground);
 }
 
 article p {
