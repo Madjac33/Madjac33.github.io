@@ -32,7 +32,7 @@ nav a {
     transition-duration: 0.3s;
 }
 
-.trentoniana a {
+#trentoniana a {
     text-decoration: none;
     background-color: var(--altNavButton);
     padding: 0.7em;
